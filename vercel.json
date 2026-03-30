@@ -1,4 +1,8 @@
 {
   "buildCommand": "npm ci && npm run build",
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://pbdwzvdmqgtmlwatqxrk.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBiZHd6dmRtcWd0bWx3YXRxeHJrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ3OTU4MjIsImV4cCI6MjA5MDM3MTgyMn0.evEAHAmR2LKUpAvsu7aqVySPiHZsAPxFMU5RS5izWCA"
+  }
 }
